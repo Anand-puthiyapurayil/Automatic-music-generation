@@ -11,7 +11,7 @@ list_of_files = [
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",
-    f"src/{project_name}/congif/configuration.py",
+    f"src/{project_name}/config/configuration.py",
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/constants/__init__.py",
@@ -20,8 +20,8 @@ list_of_files = [
     "params.yaml",
     "requirements.txt",
     "setup.py",
-    "research/trials.ipynb"
-
+    "research/trials.ipynb",
+    "templates/index.html"
 ]
 
 for filepath in list_of_files:
